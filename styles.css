@@ -1,0 +1,128 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 125px;
+    margin-top: 20%;
+    border-radius: 50%;
+    font-family: 'Moon Dance', cursive;
+    font-size: 28px;
+    
+
+}
+
+.buttonPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#masterDiv{
+    display: flex;
+    margin: auto;
+    height: 1000px;
+    width: 1200px;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 25px; 
+    
+
+
+}
+
+#leftDiv{
+    display: flex;
+    flex-direction: column;
+    background-image: url('sides.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 500px;
+    margin-top: 10%;
+    box-shadow: 10px 10px 25px;
+    border: solid;
+   
+}
+
+#sliderDiv{
+display:flex;
+flex-direction: column-reverse;
+align-items:center;
+justify-content: space-around;
+height: 500px;
+width: 250px;
+margin-top: 10%;
+border: solid;
+background-image: url('sides1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 10px 10px 25px;
+font-family: 'Moon Dance', cursive;
+font-size: 40px;
+
+
+
+
+}
+
+#slider{
+    width: 100%;
+
+}
+
+.sliderTools{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 140px;
+    
+    
+
+}
+
+
+#screenDiv{
+    display: grid;
+    margin-top: 10%;
+    height: 600px;
+    width: 600px;
+    margin: 20px, auto;
+    background-color: white;
+    border: 0px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 25px;
+}
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    
+}
